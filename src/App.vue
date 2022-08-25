@@ -1,7 +1,10 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">KAAMEEHAAMEEHAAA</router-link> | 
+    <router-link to="/rocket">Rocket</router-link> |
+    <router-link to="/list">List-Animation</router-link> |
+    <router-link to="/aos">Aos-Animation</router-link> |
   </nav>
   <router-view/>
 </template>
@@ -11,7 +14,6 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 

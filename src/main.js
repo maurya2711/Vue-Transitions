@@ -1,5 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-
-createApp(App).use(router).mount('#app')
+import AOS from "aos";
+import "aos/dist/aos.css";
+const app = createApp(App)
+app.AOS = new AOS.init({ disable: "phone" });
+app.use(router).use(AOS).mount('#app')
